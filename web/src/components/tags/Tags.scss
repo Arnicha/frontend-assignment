@@ -1,0 +1,53 @@
+#tagsMain {
+    background-color: white;
+    width: 300px;
+    min-height: 80px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #F5F4F4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 5px 6px 6px 10px;
+    .category-topic {
+        margin: 0;
+        padding: 0;
+        .catrgory-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: #202930;
+            margin: 0;
+        }
+    }
+    .tags-div {
+        display: flex;
+        margin: 0;
+        padding-top: 5px;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        .tag-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 60px;
+            width: auto;
+            height: 26px;
+            margin: 4px;
+            padding: 3px;
+            background-color: #E2F2FF;
+            border-radius: 3px;
+
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(127, 240, 255);
+            }
+
+            .tag-text {
+                font-size: 14px;
+                font-weight: normal;
+                color: #202930;
+                margin: 0;
+            }
+        }
+    }
+}
